@@ -62,8 +62,7 @@ section#viewport{
 	width: 600px;
 	height: 600px;
 	margin: 20px 0px 0px -300px;
-	-webkit-box-reflect: below -80px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.6, transparent), to(#ffffff));
-
+	
 }
 
 #front{
@@ -73,13 +72,13 @@ section#viewport{
 	background: url("../images/back.jpg") no-repeat;
 }
 #front, #back{
-	width:250px;
-	height: 394px;
+	width:325px;
+	height: 512px;
 	background-size: 100%;
-	-webkit-transform: translate3d(0px, 0px, 37px);
+	-webkit-transform: translate3d(0px, 0px, 69px);
 }
 #back{
-	-webkit-transform: rotateY(180deg) translate3d(0px, 0px, 37px);
+	-webkit-transform: rotateY(180deg) translate3d(0px, 0px, 69px);
 }
 #top{
 	background: url("../images/top.jpg") no-repeat;
@@ -88,13 +87,13 @@ section#viewport{
 	background: url("../images/bottom.jpg") no-repeat;
 }
 #top, #bottom{
-	width:250px;
-	height: 74px;
-	background-size: 100%;
-	-webkit-transform: rotateX(90deg) translate3d(0px, 0px, 37px);
+	width:325px;
+	height: 139px;
+	background-size: 100% 100%;
+	-webkit-transform: rotateX(90deg) translate3d(0px, 0px, 69px);
 }
 #bottom{
-	-webkit-transform: rotateX(-90deg) translate3d(0px, 0px, 357px);
+	-webkit-transform: rotateX(-90deg) translate3d(0px, 0px, 441px);
 }
 #left{
 	background: url("../images/left.jpg") no-repeat;
@@ -103,11 +102,11 @@ section#viewport{
 	background: url("../images/right.jpg") no-repeat;
 }
 #left, #right{
-	width: 74px;
-	height: 394px;
+	width: 139px;
+	height: 512px;
 	background-size: 100%;
-	-webkit-transform: rotateY(-90deg) translate3d(0px, 0px, 37px);
+	-webkit-transform: rotateY(-90deg) translate3d(0px, 0px, 69px);
 }
 #right{
-	-webkit-transform: rotateY(90deg) translate3d(0px, 0px, 213px);
+	-webkit-transform: rotateY(90deg) translate3d(0px, 0px, 256px);
 }
