@@ -142,42 +142,49 @@ div#box {
 	#front, #back {
 	    height: 400px;
 	    width: 254px;
+	    -webkit-transform: translate3d(0px, 0px, 54px);
+	    -moz-transform: translate3d(0px, 0px, 54px);
+	    -o-transform: translate3d(0px, 0px, 54px);
+	    -ms-transform: translate3d(0px, 0px, 54px);
 	    transform: translate3d(0px, 0px, 54px);
 	}
 	#back {
+		-webkit-transform: rotateY(180deg) translate3d(0px, 0px, 54px);
+		-moz-transform: rotateY(180deg) translate3d(0px, 0px, 54px);
+		-o-transform: rotateY(180deg) translate3d(0px, 0px, 54px);
+		-ms-transform: rotateY(180deg) translate3d(0px, 0px, 54px);
 		transform: rotateY(180deg) translate3d(0px, 0px, 54px);
 	}
 	#left, #right {
 	    height: 400px;
 	    width: 108.5px;
+	    -webkit-transform: rotateY(-90deg) translate3d(0px, 0px, 54px);
+	    -moz-transform: rotateY(-90deg) translate3d(0px, 0px, 54px);
+	    -o-transform: rotateY(-90deg) translate3d(0px, 0px, 54px);
+	    -ms-transform: rotateY(-90deg) translate3d(0px, 0px, 54px);
 	    transform: rotateY(-90deg) translate3d(0px, 0px, 54px);
 	}
 	#right {
+    	-webkit-transform: rotateY(90deg) translate3d(0px, 0px, 200px);
+    	-moz-transform: rotateY(90deg) translate3d(0px, 0px, 200px);
+    	-o-transform: rotateY(90deg) translate3d(0px, 0px, 200px);
+    	-ms-transform: rotateY(90deg) translate3d(0px, 0px, 200px);
     	transform: rotateY(90deg) translate3d(0px, 0px, 200px);
 	}
 	#top, #bottom {
 	    width: 254px;
 	    height: 108.5;
+	    -webkit-transform: rotateX(90deg) translate3d(0px, 0px, 54px);
+	    -moz-transform: rotateX(90deg) translate3d(0px, 0px, 54px);
+	    -o-transform: rotateX(90deg) translate3d(0px, 0px, 54px);
+	    -ms-transform: rotateX(90deg) translate3d(0px, 0px, 54px);
 	    transform: rotateX(90deg) translate3d(0px, 0px, 54px);
 	}
 	#bottom {
+		-webkit-transform: rotateX(-90deg) translate3d(0px, 0px, 346px);
+		-moz-transform: rotateX(-90deg) translate3d(0px, 0px, 346px);
+		-o-transform: rotateX(-90deg) translate3d(0px, 0px, 346px);
+		-ms-transform: rotateX(-90deg) translate3d(0px, 0px, 346px);
 		transform: rotateX(-90deg) translate3d(0px, 0px, 346px);
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
