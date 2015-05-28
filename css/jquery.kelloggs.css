@@ -15,26 +15,147 @@ div#indepth_box{
 div#indepth_videos{
 	height: 800px;
 	width: 100%;
-	background: url("../images/FondoPx_video1.jpg") repeat-x left;
+	background-image: url("../images/Fondo_video1.jpg"),url("../images/FondoPx_video1.jpg"); 
+	background-position: center, left;
+	background-repeat: no-repeat,repeat-x;
+	position: relative;
+	display: inline-block;
 }
 div#indepth_videos div#videos_container{
+	width: 938px;
 	margin: auto;
-	height: 800px;
-	width: 1440px;
-	background: url("../images/Fondo_video1.jpg") no-repeat center;
+	display: table;
+	padding-top: 140px;
 }
 
-
-@media (max-width: 1440px){
-	div#indepth_videos div#videos_container{
-		width: 100%;
-	}
+div.videos{
+	width: 150px;
+	height: 100px;
+	float: left;
+	margin: 12.5px;
+	cursor: pointer;
 }
+
+div#video_1{
+	background: url("../images/videos/1.jpg") no-repeat center;
+	background-size: 100%;
+}
+div#video_2{
+	background: url("../images/videos/2.jpg") no-repeat center;
+	background-size: 100%;
+}
+div#video_3{
+	background: url("../images/videos/3.jpg") no-repeat center;
+	background-size: 100%;
+}
+div#video_4{
+	background: url("../images/videos/4.jpg") no-repeat center;
+	background-size: 100%;
+}/*
+div#video_5{
+	background: url("../images/videos/5.jpg") no-repeat center;
+	background-size: 100%;
+}
+div#video_6{
+	background: url("../images/videos/6.jpg") no-repeat center;
+	background-size: 100%;
+}
+div#video_7{
+	background: url("../images/videos/7.jpg") no-repeat center;
+	background-size: 100%;
+}
+div#video_8{
+	background: url("../images/videos/8.jpg") no-repeat center;
+	background-size: 100%;
+}
+div#video_9{
+	background: url("../images/videos/9.jpg") no-repeat center;
+	background-size: 100%;
+}
+div#video_10{
+	background: url("../images/videos/10.jpg") no-repeat center;
+	background-size: 100%;
+}
+div#video_11{
+	background: url("../images/videos/11.jpg") no-repeat center;
+	background-size: 100%;
+}
+div#video_12{
+	background: url("../images/videos/12.jpg") no-repeat center;
+	background-size: 100%;
+}
+div#video_13{
+	background: url("../images/videos/13.jpg") no-repeat center;
+	background-size: 100%;
+}
+div#video_14{
+	background: url("../images/videos/14.jpg") no-repeat center;
+	background-size: 100%;
+}
+div#video_15{
+	background: url("../images/videos/15.jpg") no-repeat center;
+	background-size: 100%;
+}
+div#video_16{
+	background: url("../images/videos/16.jpg") no-repeat center;
+	background-size: 100%;
+}
+div#video_17{
+	background: url("../images/videos/17.jpg") no-repeat center;
+	background-size: 100%;
+}
+*/
+
+.no_video{
+	background-color: rgba(0,0,0,0.7);
+}
+
+div#video_yt{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+	z-index: 5;
+	display: none;
+}
+
+div#video_yt div#close{
+	font-size: 30px;
+	color: #FFF;
+	float: right;
+	border-radius: 25px;
+	cursor: pointer;
+	border: 2px solid;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-family: sans-serif;
+}
+
+div#video_yt_cont{
+	width: 80%;
+	height: 80%;
+	margin: 5% auto;
+	display: table;
+}
+
 @media (max-width: 950px){
 	div#indepth_cover{
 		background-size: auto 100%;
 		height: 400px;
 		background-attachment: scroll;
+	}
+	div#indepth_videos div#videos_container{
+		width: 80%;
+	}
+	div.videos{
+		width: 45%;
+	}
+}
+@media (max-width: 625px){
+	div.videos{
+		width: 100%;
 	}
 }
 @media (max-width: 500px){
