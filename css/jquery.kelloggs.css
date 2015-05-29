@@ -147,16 +147,26 @@ div#video_yt_cont{
 		background-attachment: scroll;
 	}
 	div#indepth_videos div#videos_container{
-		width: 90%;
+		width: 875px;
 		padding-top: 50px;
 	}
+	div.videos{
+		margin: 10px;
+	}
 }
-@media (max-width: 585px){
 
+@media (max-width: 868px){
+	div#indepth_videos div#videos_container{
+		width: 680px;
+	}
+	
 }
-@media (max-width: 500px){
+@media (max-width: 695px){
 	div#indepth_cover{
 		height: 250px;
+	}
+	div#indepth_videos div#videos_container{
+		width: 510px;
 	}
 }
 @media (max-width: 420px){
@@ -164,3 +174,14 @@ div#video_yt_cont{
 	    height: 550px;
 	}
 }
+@media (max-width: 515px){
+	div#indepth_videos div#videos_container{
+		width: 340px;
+	}
+}
+@media (max-width: 350px){
+	div#indepth_videos div#videos_container{
+		width: 170px;
+	}
+}
+
