@@ -153,6 +153,9 @@ div#video_yt_cont{
 	div.videos{
 		margin: 10px;
 	}
+	div#indepth_videos {
+		background-size: 100% 100%;
+	}
 }
 
 @media (max-width: 868px){
@@ -177,11 +180,18 @@ div#video_yt_cont{
 @media (max-width: 515px){
 	div#indepth_videos div#videos_container{
 		width: 340px;
+		padding-top: 30px;
+	}
+	div#indepth_videos {
+	    height: 1110px;
 	}
 }
 @media (max-width: 350px){
 	div#indepth_videos div#videos_container{
 		width: 170px;
+	}
+	div#indepth_videos {
+	    height: 2070px;
 	}
 }
 
