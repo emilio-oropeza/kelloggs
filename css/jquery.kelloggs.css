@@ -131,6 +131,8 @@ div#video_yt div#close{
 	text-align: center;
 	line-height: 40px;
 	font-family: sans-serif;
+	margin-top: 50px;
+	margin-right: 50px;
 }
 
 div#video_yt_cont{
@@ -184,6 +186,14 @@ div#video_yt_cont{
 	}
 	div#indepth_videos {
 	    height: 1110px;
+	}
+	div#video_yt_cont {
+    	width: 80%;
+    	height: 400px;
+    	margin: 95% auto;
+	}
+	div#video_yt div#close{
+		margin-top: 100%;
 	}
 }
 @media (max-width: 350px){
