@@ -147,16 +147,11 @@ div#video_yt_cont{
 		background-attachment: scroll;
 	}
 	div#indepth_videos div#videos_container{
-		width: 80%;
-	}
-	div.videos{
-		width: 45%;
+		width: 90%;
 	}
 }
-@media (max-width: 625px){
-	div.videos{
-		width: 100%;
-	}
+@media (max-width: 585px){
+
 }
 @media (max-width: 500px){
 	div#indepth_cover{
