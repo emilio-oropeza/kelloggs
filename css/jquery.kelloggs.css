@@ -198,10 +198,11 @@ div#video_yt_cont{
 }
 @media (max-width: 350px){
 	div#indepth_videos div#videos_container{
-		width: 170px;
+		width: 320px;
+		padding-top: 60px;
 	}
-	div#indepth_videos {
-	    height: 2070px;
+	div.videos {
+	    margin: 5px;
 	}
 }
 
