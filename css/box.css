@@ -133,7 +133,7 @@ div#box {
 	transform: rotateY(90deg) translate3d(0px, 0px, 256px);
 }
 
-
+/*
 @media (max-width: 800px){
 	section#box1 {
 	    height: 500px;
@@ -186,7 +186,7 @@ div#box {
 		-ms-transform: rotateX(-90deg) translate3d(0px, 0px, 346px);
 		transform: rotateX(-90deg) translate3d(0px, 0px, 346px);
 	}
-}
+}*/
 @media (max-width: 420px){
 	section#box1 {
 	    height: 500px;
