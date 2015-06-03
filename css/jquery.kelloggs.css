@@ -9,7 +9,7 @@ div#indepth_cover{
 	background-image: url("../images/Portada.jpg");
 }
 div#indepth_billboard{
-	background-image: url("../images/billboard.jpg");
+	background-image: url("../images/KelloggsBillboard.jpg");
 }
 div#indepth_box{
 	height: 800px;
@@ -251,7 +251,7 @@ div#video_yt_cont{
 }
 @media (max-width: 695px){
 	div.indepth_billboards{
-		height: 250px;
+		height: 330px;
 	}
 	div#video_yt_cont {
     	width: 90%;

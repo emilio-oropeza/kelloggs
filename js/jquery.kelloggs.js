@@ -31,7 +31,7 @@ $(document).ready(function(){
 		}	
 	});
 
-	$("#close").click(function(){
+	$("#close").on("click", function(){
 		$("#video_yt_cont").html('');
 		$("#video_yt").hide();
 	});
