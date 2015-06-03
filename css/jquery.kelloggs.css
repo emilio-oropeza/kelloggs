@@ -186,7 +186,7 @@ div#video_yt_cont{
 @media (max-width: 970px){
 	div.indepth_billboards{
 		background-size: auto 100%;
-		height: 400px;
+		height: 455px;
 		background-attachment: scroll;
 	}
 	/*div#indepth_videos div#videos_container{
