@@ -113,7 +113,7 @@ div#box {
 	background: url("../images/box/left.jpg") no-repeat;
 }
 #right{
-	background: url("../images/box/right.jpg") no-repeat;
+	background: url("../images/box/left.jpg") no-repeat;
 }
 #left, #right{
 	width: 139px;

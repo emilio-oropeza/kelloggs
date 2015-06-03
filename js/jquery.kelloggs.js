@@ -1,8 +1,5 @@
 var videos = [
-	"UCF-IEMAEdw",
-	"exHGCSWc-rI",
-	"JVeih0R_06A",
-	"d3wplp7fLsU"
+	"M74kCD-4Rwc"
 ];
 
 

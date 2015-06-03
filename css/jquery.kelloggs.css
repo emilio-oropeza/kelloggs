@@ -19,7 +19,8 @@ div#indepth_box{
 }
 
 div#indepth_videos{
-	height: 1261px;
+	max-height: 1261px;
+	min-height: 800px;
 	width: 100%;
 	background-image: url("../images/Fondo_video1.jpg"),url("../images/FondoPx_video1.jpg"); 
 	background-position: top center, top left;
@@ -28,11 +29,26 @@ div#indepth_videos{
 	position: relative;
 	display: inline-block;
 }
-div#indepth_videos div#videos_container{
+/*div#indepth_videos div#videos_container{
 	width: 966px;
+	height: 182px; /*Cambiar*//* Mientras
 	margin: auto;
-	display: table;
-	padding-top: 90px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}*/
+
+div#indepth_videos div#videos_container{
+	width: 561px;
+	height: 317px;
+	margin: auto;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
 }
 
 div.videos{
@@ -42,11 +58,25 @@ div.videos{
 	float: left;
 	cursor: pointer;
 }
+.row{
+	height: 182px;
+	margin: auto;
+}
+.videos1{
+	width: 323px;
+}
+.videos2{
+	width: 644px;
+}
+.videos3{
+	width: 966px;
+}
+
 
 div#video_1{
 	background: url("../images/videos/1.jpg") no-repeat center;
 	background-size: 100%;
-}
+}/*
 div#video_2{
 	background: url("../images/videos/2.jpg") no-repeat center;
 	background-size: 100%;
@@ -58,7 +88,7 @@ div#video_3{
 div#video_4{
 	background: url("../images/videos/4.jpg") no-repeat center;
 	background-size: 100%;
-}/*
+}
 div#video_5{
 	background: url("../images/videos/5.jpg") no-repeat center;
 	background-size: 100%;
@@ -159,8 +189,13 @@ div#video_yt_cont{
 		height: 400px;
 		background-attachment: scroll;
 	}
-	div#indepth_videos div#videos_container{
+	/*div#indepth_videos div#videos_container{
 		width: 729px;
+		height: 138px; /*Cambiar*//*
+	}*/
+	div#indepth_videos div#videos_container {
+    	width: 561px;
+    	height: 317px;
 	}
 	div.videos{
 		width: 237px;
@@ -168,20 +203,50 @@ div#video_yt_cont{
 	}
 	div#indepth_videos {
 		background-size: 970px auto;
-		height: 1005px;
+		max-height: 1005px;
+		min-height: 540px;
+	}
+	.row{
+		height: 137px;
+	}
+	.videos1{
+		width: 243px;
+	}
+	.videos2{
+		width: 486px;
+	}
+	.videos3{
+		width: 729px;
 	}
 }
 @media (max-width: 730px){
 	div#indepth_videos {
 		background-size: 970px auto;
-		height: 740px;
+		max-height: 740px;
 	}
-	div#indepth_videos div#videos_container{
+	/*div#indepth_videos div#videos_container{
 		width: 492px;
+		height: 94px;
+	}*/
+	div#indepth_videos div#videos_container {
+    	width: 492px;
+    	height: 318px;
 	}
 	div.videos{
 		width: 158px;
 		height: 88px;
+	}
+	.row{
+		height: 94px;
+	}
+	.videos1{
+		width: 164px;
+	}
+	.videos2{
+		width: 328px;
+	}
+	.videos3{
+		width: 492px;
 	}
 }
 @media (max-width: 695px){
@@ -199,15 +264,32 @@ div#video_yt_cont{
 
 @media(max-width: 500px){
 	div#indepth_videos {
-		height: 860px;
+		max-height: 860px;
+		min-height: 539px;
 	}
-	div#indepth_videos div#videos_container{
+	/*div#indepth_videos div#videos_container{
 		width: 312px;
-		padding-top: 30px;
+		height: 89px;
+	}*/
+	div#indepth_videos div#videos_container {
+	    width: 312px;
+	    height: 178px;
 	}
 	div.videos{
 		width: 150px;
 		height: 83px;
+	}
+	.row{
+		height: 89px;
+	}
+	.videos1{
+		width: 155px;
+	}
+	.videos2{
+		width: 312px;
+	}
+	.videos3{
+		width: 312px;
 	}
 }
 @media (max-width: 420px){
