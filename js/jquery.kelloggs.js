@@ -1,5 +1,6 @@
 var videos = [
-	"M74kCD-4Rwc"
+	"n3Uoi9Xg9fg",
+	"IfupzgMJ8pg"
 ];
 
 window.addEventListener("load", callback, false);

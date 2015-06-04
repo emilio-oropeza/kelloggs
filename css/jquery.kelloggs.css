@@ -11,15 +11,16 @@ div.load3{ background-image: url("../images/box1/left.jpg"); display: none; }
 div.indepth_billboards{
 	width: 100%;
 	background-repeat: no-repeat;
-	background-position: center top; 
 	background-attachment: fixed;
 	height: 800px;
 }
 div#indepth_cover{
 	background-image: url("../images/Portada.jpg");
+	background-position: center top;
 }
 div#indepth_billboard{
 	background-image: url("../images/KelloggsBillboard.jpg");
+	background-position: center center;
 }
 div#indepth_box{
 	height: 800px;
