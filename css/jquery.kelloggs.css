@@ -1,3 +1,13 @@
+div.load1{ background-image: url("../images/box1/front.jpg"); display: none; }
+div.load1{ background-image: url("../images/box1/back.jpg"); display: none; }
+div.load1{ background-image: url("../images/box1/left.jpg"); display: none; }
+div.load2{ background-image: url("../images/box1/front.jpg"); display: none; }
+div.load2{ background-image: url("../images/box1/back.jpg"); display: none; }
+div.load2{ background-image: url("../images/box1/left.jpg"); display: none; }
+div.load3{ background-image: url("../images/box1/front.jpg"); display: none; }
+div.load3{ background-image: url("../images/box1/back.jpg"); display: none; }
+div.load3{ background-image: url("../images/box1/left.jpg"); display: none; }
+
 div.indepth_billboards{
 	width: 100%;
 	background-repeat: no-repeat;
@@ -333,6 +343,7 @@ div#video_yt_cont{
 		background-size: 80px auto;
 		width: 80px;
 		height: 115px;
+		margin: 0px 10px;
 	}
 }
 
