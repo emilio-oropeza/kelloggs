@@ -288,9 +288,9 @@ div#video_yt_cont{
 		width: 492px;
 	}
 }
-@media (max-width: 695px){
+@media (max-width: 620px){
 	div.indepth_billboards{
-		height: 330px;
+		height: 260px;
 	}
 	div#video_yt_cont {
     	width: 90%;

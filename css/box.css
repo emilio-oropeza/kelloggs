@@ -13,7 +13,8 @@ section#box1{
 	position: relative;
 	left: 50%;
 	width: 600px;
-	height: 460px;
+	/*height: 460px; con Billboards*/
+	height: 600px;
 	margin: 0px 0px 0px -300px;
 }
 
@@ -195,7 +196,8 @@ div#box {
 }*/
 @media (max-width: 420px){
 	section#box1 {
-	    height: 400px;
+	    /*height: 400px; Con billboards  */
+	    height: 500px;
 	}
 	#front, #back {
 	    height: 400px;
