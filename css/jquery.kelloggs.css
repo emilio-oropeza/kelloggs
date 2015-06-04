@@ -16,6 +16,35 @@ div#indepth_box{
 	width: 100%;
 	background: url("../images/Fondo_Caja1.jpg") center;
 	overflow: hidden;
+	position: relative;
+}
+div#box_select{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+	height: 180px;
+	width: 480px;
+}
+div#mini_1{
+	background-image: url("../images/box1/box.png");
+}
+div#mini_2{
+	background-image: url("../images/box2/box.png");
+}
+div#mini_3{
+	background-image: url("../images/box3/box.png");
+}
+.box_mini{
+	width: 120px;
+	background-position: left top;
+	background-repeat: no-repeat;
+	float: left;
+	background-size: 120px auto;
+	height: 175px;
+	margin: 0px 20px;
+	cursor: pointer;
 }
 
 div#indepth_videos{
@@ -294,7 +323,16 @@ div#video_yt_cont{
 }
 @media (max-width: 420px){
 	div#indepth_box {
-	    height: 550px;
+	    height: 600px;
+	}
+	div#box_select{
+		height: 130px;
+		width: 360px;
+	}
+	.box_mini{
+		background-size: 80px auto;
+		width: 80px;
+		height: 115px;
 	}
 }
 

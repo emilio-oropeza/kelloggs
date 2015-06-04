@@ -1,9 +1,9 @@
 section#box1{
-	-webkit-perspective: 700px;
-	-moz-perspective: 700px;
-	-ms-perspective: 700px;
-	-o-perspective: 700px;
-	perspective: 700px;
+	-webkit-perspective: 1600px;
+	-moz-perspective: 1600px;
+	-ms-perspective: 1600px;
+	-o-perspective: 1600px;
+	perspective: 1600px;
 	-webkit-perspective-origin: 50% 50%;
 	-moz-perspective-origin: 50% 50%;
 	-o-perspective-origin: 50% 50%;
@@ -13,7 +13,7 @@ section#box1{
 	position: relative;
 	left: 50%;
 	width: 600px;
-	height: 600px;
+	height: 460px;
 	margin: 0px 0px 0px -300px;
 }
 
@@ -64,10 +64,12 @@ div#box {
 }
 
 #front{
-	background: url("../images/box/front.jpg") no-repeat;
+	background-image: url("../images/box1/front.jpg");
+	background-repeat: no-repeat;
 }
 #back{
-	background: url("../images/box/back.jpg") no-repeat;
+	background-image: url("../images/box1/back.jpg");
+	background-repeat: no-repeat;
 }
 #front, #back{
 	width:325px;
@@ -87,10 +89,12 @@ div#box {
 	transform: rotateY(180deg) translate3d(0px, 0px, 69px);
 }
 #top{
-	background: url("../images/box/top.jpg") no-repeat;
+	background-image: url("../images/box1/top.jpg");
+	background-repeat: no-repeat;
 }
 #bottom{
-	background: url("../images/box/bottom.jpg") no-repeat;
+	background-image: url("../images/box1/bottom.jpg");
+	background-repeat: no-repeat;
 }
 #top, #bottom{
 	width:325px;
@@ -110,10 +114,12 @@ div#box {
 	transform: rotateX(-90deg) translate3d(0px, 0px, 441px);
 }
 #left{
-	background: url("../images/box/left.jpg") no-repeat;
+	background-image: url("../images/box1/left.jpg");
+	background-repeat: no-repeat;
 }
 #right{
-	background: url("../images/box/left.jpg") no-repeat;
+	background-image: url("../images/box1/left.jpg");
+	background-repeat: no-repeat;
 }
 #left, #right{
 	width: 139px;
@@ -189,7 +195,7 @@ div#box {
 }*/
 @media (max-width: 420px){
 	section#box1 {
-	    height: 500px;
+	    height: 400px;
 	}
 	#front, #back {
 	    height: 400px;

@@ -2,10 +2,6 @@ var videos = [
 	"M74kCD-4Rwc"
 ];
 
-
-
-
-
 window.addEventListener("load", callback, false);
 		
 function callback(){
@@ -24,7 +20,7 @@ $(document).ready(function(){
 
 	$(".videos").each(function(key, val){
 		if(key < videos.length){
-			$(this).click(function(){
+			$(this).on("click",function(){
 				$("#video_yt").show();
 				autoplay(videos[key]);
 			});
@@ -34,6 +30,15 @@ $(document).ready(function(){
 	$("#close").on("click", function(){
 		$("#video_yt_cont").html('');
 		$("#video_yt").hide();
+	});
+
+	$(".box_mini").each(function(key, val){
+		$(this).on("click", function(){
+			$("#front").css('background-image','url("images/box'+(key+1)+'/front.jpg")');
+			$("#back").css('background-image','url("images/box'+(key+1)+'/back.jpg")');
+			$("#left").css('background-image','url("images/box'+(key+1)+'/left.jpg")');
+			$("#right").css('background-image','url("images/box'+(key+1)+'/left.jpg")');
+		});
 	});
 });
 
