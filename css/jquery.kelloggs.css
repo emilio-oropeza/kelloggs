@@ -21,6 +21,7 @@ div#indepth_cover{
 div#indepth_billboard{
 	background-image: url("../images/KelloggsBillboard.jpg");
 	background-position: center center;
+	background-size: cover;
 }
 div#indepth_box{
 	height: 800px;
@@ -31,6 +32,18 @@ div#indepth_box{
 	background-size: auto 100%;
 	overflow: hidden;
 	position: relative;
+}
+div#instructions_box{
+	color: rgb(255, 255, 255);
+	font-family: 'Roboto Condensed',sans-serif;
+	font-weight: 300;
+	font-size: 45px;
+	width: 100%;
+	height: 150px;
+	display: table;
+	margin: auto;
+	line-height: 150px;
+	text-align: center;
 }
 div#box_select{
 	position: absolute;
@@ -264,6 +277,11 @@ div#video_yt_cont{
 	div#indepth_box {
 		background-size: 1300px 100%;
 	}
+	div#instructions_box {
+	    font-size: 40px;
+	    height: 100px;
+	    line-height: 100px;
+	}
 }
 @media (max-width: 730px){
 	div#indepth_videos {
@@ -295,10 +313,12 @@ div#video_yt_cont{
 		width: 492px;
 	}
 }
-@media (max-width: 620px){
+@media(max-width: 550px){
 	div.indepth_billboards{
 		height: 260px;
 	}
+}
+@media (max-width: 620px){
 	div#video_yt_cont {
     	width: 90%;
 	}
@@ -309,6 +329,9 @@ div#video_yt_cont{
 	div#indepth_box {
 	    background-size: 830px 100%;
 	    height: 560px;
+	}
+	div#instructions_box {
+	    font-size: 35px;
 	}
 }
 
@@ -341,6 +364,9 @@ div#video_yt_cont{
 	.videos3{
 		width: 312px;
 	}
+	div#instructions_box {
+	    font-size: 28px;
+	}
 }
 @media (max-width: 420px){
 	div#indepth_box {
@@ -356,6 +382,11 @@ div#video_yt_cont{
 		width: 80px;
 		height: 115px;
 		margin: 0px 10px;
+	}
+	div#instructions_box {
+	    line-height: 70px;
+	    font-size: 20px;
+	    height: 70px;
 	}
 }
 
