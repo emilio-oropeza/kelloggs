@@ -25,9 +25,35 @@
 		</script>
 	</head>
 	<body>
-		<div id="load1">
-		<div id="load2">
-		<div id="load3">
+		<script type="text/javascript" src="http://cstatic.weborama.fr/js/advertiserv2/adperf_conversion.js"></script>
+		<script type="text/javascript">
+		var adperftrackobj = {
+		    client : ""      // <== set your client id here
+		    ,amount : "0.0"   // <== set the total price here 
+		    ,invoice_id : ""  // <== set your invoice id here
+		    ,quantity : 0     // <== set the number of items purchased
+		    ,is_client : 0    // <== set to 1 if the client is a new client
+		    ,optional_parameters : {
+		        "N1" : "0" // <== to set
+		        ,"N2" : "0" // <== to set
+		// to set free parameter follow this pattern :
+		//      ,"customer_type" : "abc"
+		    }
+
+		    /* don't edit below this point */
+		    ,fullhost : 'lamkellogsmx.solution.weborama.fr'
+		    ,site : 1970
+		    ,conversion_page : 1
+		}
+		try{adperfTracker.track( adperftrackobj );}catch(err){}
+		</script>
+		<link type="text/css" rel="stylesheet" href="css/box.css?v=1.0"/>
+		<link type="text/css" rel="stylesheet" href="css/jquery.kelloggs.css?v=1.0"/>
+		<script type="text/javascript" src="js/traqball.js?v=1.0"></script>
+		<script type="text/javascript" src="js/jquery.kelloggs.js?v=1.0"></script>
+		<div id="load1"></div>
+		<div id="load2"></div>
+		<div id="load3"></div>
 		<div id="video_yt">
 			<div id="close">X</div>
 			<div id="video_yt_cont"></div>
@@ -62,6 +88,11 @@
 
 			</div>
 		</div>
+		<div id="com" class="indepth_page_content" style="width: 100%; position: relative;">
+			<div class="indepth_page_body" style="width: 100%; max-width: 1024px; display: table; margin: auto;">
+				<div id="indepth_coments"></div>
+			</div>
+		</div>	
 
 	</body>
 </html>
