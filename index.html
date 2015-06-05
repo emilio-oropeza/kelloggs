@@ -21,40 +21,75 @@
 		</script>
 	</head>
 	<body>
-		<scripts>
-			<!--<script type="text/javascript" src="js/jquery.valentin.js?v=1.2"></script>-->
-		</scripts>
-		<styles>
-			<link type="text/css" rel="stylesheet" href="css/prueba.css?v=1.5"/>
-		</styles>
+		<script type="text/javascript" src="http://cstatic.weborama.fr/js/advertiserv2/adperf_conversion.js"></script>
+		<script type="text/javascript">
+		var adperftrackobj = {
+		    client : ""      // <== set your client id here
+		    ,amount : "0.0"   // <== set the total price here 
+		    ,invoice_id : ""  // <== set your invoice id here
+		    ,quantity : 0     // <== set the number of items purchased
+		    ,is_client : 0    // <== set to 1 if the client is a new client
+		    ,optional_parameters : {
+		        "N1" : "0" // <== to set
+		        ,"N2" : "0" // <== to set
+		// to set free parameter follow this pattern :
+		//      ,"customer_type" : "abc"
+		    }
+
+		    /* don't edit below this point */
+		    ,fullhost : 'lamkellogsmx.solution.weborama.fr'
+		    ,site : 1970
+		    ,conversion_page : 1
+		}
+		try{adperfTracker.track( adperftrackobj );}catch(err){}
+		</script>
+		<link type="text/css" rel="stylesheet" href="css/box.css?v=1.0"/>
+		<link type="text/css" rel="stylesheet" href="css/jquery.kelloggs.css?v=1.0"/>
+		<script type="text/javascript" src="js/traqball.js?v=1.0"></script>
+		<script type="text/javascript" src="js/jquery.kelloggs.js?v=1.0"></script>
+		<div id="load1"></div>
+		<div id="video_yt">
+			<div id="close">X</div>
+			<div id="video_yt_cont"></div>
+		</div>		
 		<div id="indepth_content">
-			<div id="image_360">
-				<img src="images/360/p-1.jpg">
-				<img src="images/360/p-2.jpg">
-				<img src="images/360/p-3.jpg">
-				<img src="images/360/p-4.jpg">
-				<img src="images/360/p-5.jpg">
-				<img src="images/360/p-6.jpg">
-				<img src="images/360/p-7.jpg">
-				<img src="images/360/p-8.jpg">
-				<img src="images/360/p-9.jpg">
-				<img src="images/360/p-10.jpg">
-				<img src="images/360/p-11.jpg">
-				<img src="images/360/p-12.jpg">
-				<img src="images/360/p-13.jpg">
-				<img src="images/360/p-14.jpg">
-				<img src="images/360/p-15.jpg">
-				<img src="images/360/p-16.jpg">
-				<img src="images/360/p-17.jpg">
-				<img src="images/360/p-18.jpg">
-				<img src="images/360/p-18.jpg">
-				<img src="images/360/p-19.jpg">
-				<img src="images/360/p-20.jpg">
-				<img src="images/360/p-21.jpg">
-				<img src="images/360/p-22.jpg">
-				<img src="images/360/p-23.jpg">
-				<img src="images/360/p-24.jpg">
+			<div id="indepth_cover" class="indepth_billboards"></div>
+			<div id="indepth_box">
+				<div id="instructions_box">
+					Desliza la caja y descubre el reverso
+				</div>
+				<section id="box1">
+					<div id="box">
+						<div id="front"></div>
+						<div id="top"></div>
+						<div id="bottom"></div>
+						<div id="back"></div>
+						<div id="left"></div>
+						<div id="right"></div>
+					</div>
+				</section>
+				<!--<div id="box_select">
+					<div class="box_mini" id="mini_1"></div>
+					<div class="box_mini" id="mini_2"></div>
+					<div class="box_mini" id="mini_3"></div>
+				</div>-->
+			</div>
+			<div id="indepth_billboard" class="indepth_billboards"></div>
+			<div id="indepth_videos">
+				<div id="videos_container">
+					<!--<div class="videos1 row">
+						<div id="video_1" class="videos"></div>
+					</div>-->
+					<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Xp3XsNaUni4" frameborder="0" allowfullscreen></iframe>
+				</div>
+
 			</div>
 		</div>
+		<div id="com" class="indepth_page_content" style="width: 100%; position: relative;">
+			<div class="indepth_page_body" style="width: 100%; max-width: 1024px; display: table; margin: auto;">
+				<div id="indepth_coments"></div>
+			</div>
+		</div>	
+
 	</body>
 </html>
