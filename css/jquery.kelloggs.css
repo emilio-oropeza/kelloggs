@@ -10,18 +10,20 @@ div.load3{ background-image: url("../images/box1/left.jpg"); display: none; }
 
 div.indepth_billboards{
 	width: 100%;
-	background-repeat: no-repeat;
 	background-attachment: fixed;
 	height: 790px;
 }
-div#indepth_cover{
-	background-image: url("../images/Portada.jpg");
-	background-position: center top;
+div#indepth_cover {
+    background-image: url("../images/Portada.jpg"), url("../images/PortadaPx.jpg");
+    background-position: center top, top left;
+    background-color: #08842C;
+    background-repeat: no-repeat, repeat-x;
 }
 div#indepth_billboard{
 	background-image: url("../images/KelloggsBillboard.jpg");
 	background-position: center center;
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 div#indepth_box{
 	height: 800px;
@@ -29,6 +31,7 @@ div#indepth_box{
 	background-image: url("../images/Fondo_Caja1.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
+	background-color: #2D87C5;
 	background-size: auto 100%;
 	overflow: hidden;
 	position: relative;
