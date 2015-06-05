@@ -80,7 +80,7 @@ $(document).ready(function(){
 			$("#right").css('background-image','url("images/box'+(key+1)+'/left.jpg")');
 		});
 	});
-	loadDisqus($("#indepth_coments"),disqus_url, "http://juanfutbol.com/indepth/"+disqus_url);
+	//loadDisqus($("#indepth_coments"),disqus_url, "http://juanfutbol.com/indepth/"+disqus_url);
 });
 
 function autoplay(vcode){
