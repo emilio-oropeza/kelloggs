@@ -35,9 +35,9 @@ div#box {
 	height: 355px;
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
-	-ms-transform-style: preserve-3d;
 	-o-transform-style: preserve-3d;
 	transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
 }
 #box div {
 	margin-top: -177px;
@@ -50,12 +50,12 @@ div#box {
 	-webkit-transform-style: flat;
 	-moz-transform-style: flat;
 	-o-transform-style: flat;
+	-ms-transform-style: flat;
 	transform-style: flat;
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
 	-o-backface-visibility: hidden;
-	backface-visibility: hidden;
 	backface-visibility: hidden;
 	-webkit-box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.7);
 	-moz-box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.7);
