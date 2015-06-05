@@ -1,13 +1,9 @@
 div.load1{ background-image: url("../images/box1/front.jpg"); display: none; }
 div.load1{ background-image: url("../images/box1/back.jpg"); display: none; }
 div.load1{ background-image: url("../images/box1/left.jpg"); display: none; }
-div.load2{ background-image: url("../images/box1/front.jpg"); display: none; }
-div.load2{ background-image: url("../images/box1/back.jpg"); display: none; }
-div.load2{ background-image: url("../images/box1/left.jpg"); display: none; }
-div.load3{ background-image: url("../images/box1/front.jpg"); display: none; }
-div.load3{ background-image: url("../images/box1/back.jpg"); display: none; }
-div.load3{ background-image: url("../images/box1/left.jpg"); display: none; }
-
+div#recommended-wrapper{
+	display: none;
+}
 div.indepth_billboards{
 	width: 100%;
 	background-attachment: fixed;
