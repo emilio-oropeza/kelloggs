@@ -82,6 +82,13 @@ $(document).ready(function(){
 		});
 	});
 
+	$('#indepth_footer').waypoint(function(direction) {
+		if(direction=='down'){
+			$(".indepth_share").fadeOut("slow");
+		}else{
+			 $(".indepth_share").fadeIn("slow");
+		}
+	},{offset: 'bottom-in-view'});
 
 	loadDisqus($("#indepth_coments"),disqus_url, "http://juanfutbol.com/indepth/"+disqus_url);
 });
