@@ -80,27 +80,18 @@ div#indepth_videos{
 	max-height: 1261px;
 	min-height: 800px;
 	width: 100%;
-	background-image: url("../images/Fondo_video1.jpg"),url("../images/FondoPx_video1.jpg"); 
-	background-position: top center, top left;
-	background-repeat: no-repeat,repeat-x;
+	background-image: url("../images/Fondo_video1.jpg"); 
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	background-color: #2B369F;
 	position: relative;
 	display: inline-block;
 }
-/*div#indepth_videos div#videos_container{
-	width: 966px;
-	height: 182px; /*Cambiar*//* Mientras
-	margin: auto;
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-}*/
 
 div#indepth_videos div#videos_container{
 	width: 561px;
-	height: 317px;
+	height: 580px;
 	margin: auto;
 	position: absolute;
 	top: 0px;
@@ -108,20 +99,38 @@ div#indepth_videos div#videos_container{
 	right: 0px;
 	left: 0px;
 }
-
-div.videos{
+/*Tamaño para muchos videos*/
+/*div.videos{ 
 	width: 316px;
 	height: 176px;
 	margin: 3px;
 	float: left;
 	cursor: pointer;
+}*/
+div.videos {
+    height: 284px;
+    margin: 3px;
+    float: left;
+    cursor: pointer;
+    width: 500px;
 }
-.row{
+/*Tamaño para muchos videos*/
+/*.row{
 	height: 182px;
 	margin: auto;
+}*/
+.row {
+    height: 290px;
+    margin: auto;
 }
+/*Tamaño para muchos videos*/
+/*
 .videos1{
 	width: 323px;
+}
+*/
+.videos1 {
+    width: 506px;
 }
 .videos2{
 	width: 644px;
@@ -309,12 +318,12 @@ background-color: #85D86D;
 		height: 138px; /*Cambiar*//*
 	}*/
 	div#indepth_videos div#videos_container {
-    	width: 561px;
-    	height: 317px;
+    	width: 405px;
+		height: 463px;
 	}
 	div.videos{
-		width: 237px;
-		height: 132px;
+		width: 400px;
+		height: 227px;
 	}
 	div#indepth_videos {
 		background-size: 970px auto;
@@ -322,10 +331,10 @@ background-color: #85D86D;
 		min-height: 540px;
 	}
 	.row{
-		height: 137px;
+		height: 231px;
 	}
 	.videos1{
-		width: 243px;
+		width: 405px;
 	}
 	.videos2{
 		width: 486px;
@@ -354,17 +363,17 @@ background-color: #85D86D;
 	}*/
 	div#indepth_videos div#videos_container {
     	width: 492px;
-    	height: 318px;
+   		height: 466px;
 	}
 	div.videos{
-		width: 158px;
-		height: 88px;
+		width: 400px;
+		height: 227px;
 	}
 	.row{
-		height: 94px;
+		height: 233px;
 	}
 	.videos1{
-		width: 164px;
+		width: 407px;
 	}
 	.videos2{
 		width: 328px;
@@ -407,17 +416,17 @@ background-color: #85D86D;
 	}*/
 	div#indepth_videos div#videos_container {
 	    width: 312px;
-	    height: 178px;
+		height: 297px;
 	}
 	div.videos{
-		width: 150px;
-		height: 83px;
+		height: 145px;
+		width: 256px;
 	}
 	.row{
-		height: 89px;
+		height: 148px;
 	}
 	.videos1{
-		width: 155px;
+		width: 256px;
 	}
 	.videos2{
 		width: 312px;
