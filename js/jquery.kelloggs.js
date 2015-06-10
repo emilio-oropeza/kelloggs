@@ -79,6 +79,7 @@ $(document).ready(function(){
 			$("#back").css('background-image','url("images/box'+(key+1)+'/back.jpg")');
 			$("#left").css('background-image','url("images/box'+(key+1)+'/left.jpg")');
 			$("#right").css('background-image','url("images/box'+(key+1)+'/left.jpg")');
+			$("#indepth_cover").css('background-image','url("images/box'+(key+1)+'/Portada.jpg"), url("images/PortadaPx.jpg")');
 		});
 	});
 
