@@ -108,7 +108,7 @@ div#indepth_videos div#videos_container{
 	cursor: pointer;
 }*/
 div.videos {
-    height: 284px;
+    height: 282px;
     margin: 3px;
     float: left;
     cursor: pointer;
@@ -139,15 +139,19 @@ div.videos {
 	width: 966px;
 }
 
-
 div#video_1{
-	background: url("../images/videos/1.jpg") no-repeat center;
-	background-size: 100%;
+	background-image:url("../images/play.png"),url("../images/videos/1.jpg");
+	background-size: 200% auto, 100%;
+	background-repeat: no-repeat, no-repeat;
+	background-position: center center, center;
 }
 div#video_2{
-	background: url("../images/videos/2.jpg") no-repeat center;
-	background-size: 100%;
-}/*
+	background-image:url("../images/play.png"),url("../images/videos/2.jpg");
+	background-size: 200% auto, 100%;
+	background-repeat: no-repeat, no-repeat;
+	background-position: center center, center;
+}
+/*
 div#video_3{
 	background: url("../images/videos/3.jpg") no-repeat center;
 	background-size: 100%;
