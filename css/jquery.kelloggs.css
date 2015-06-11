@@ -113,6 +113,9 @@ div.videos {
     float: left;
     cursor: pointer;
     width: 500px;
+    background-size: 200% auto, 100%;
+	background-repeat: no-repeat, no-repeat;
+	background-position: center center, center;
 }
 /*Tamaño para muchos videos*/
 /*.row{
@@ -141,15 +144,10 @@ div.videos {
 
 div#video_1{
 	background-image:url("../images/play.png"),url("../images/videos/1.jpg");
-	background-size: 200% auto, 100%;
-	background-repeat: no-repeat, no-repeat;
-	background-position: center center, center;
+	
 }
 div#video_2{
 	background-image:url("../images/play.png"),url("../images/videos/2.jpg");
-	background-size: 200% auto, 100%;
-	background-repeat: no-repeat, no-repeat;
-	background-position: center center, center;
 }
 /*
 div#video_3{
