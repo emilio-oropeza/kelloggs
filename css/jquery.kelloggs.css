@@ -223,6 +223,7 @@ div#video_yt{
 	z-index: 5;
 	display: none;
 	position: fixed;
+	top: 0;
 }
 
 div#video_yt div#close{
