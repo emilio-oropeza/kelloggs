@@ -1,3 +1,6 @@
+div.load1{ background-image: url("../images/box3/front.jpg"); display: none; }
+div.load1{ background-image: url("../images/box3/back.jpg"); display: none; }
+div.load1{ background-image: url("../images/box3/left.jpg"); display: none; }
 div.load1{ background-image: url("../images/box2/front.jpg"); display: none; }
 div.load1{ background-image: url("../images/box2/back.jpg"); display: none; }
 div.load1{ background-image: url("../images/box2/left.jpg"); display: none; }
@@ -13,7 +16,7 @@ div.indepth_billboards{
 	height: 790px;
 }
 div#indepth_cover {
-    background-image: url("../images/box2/Portada.jpg"), url("../images/PortadaPx.jpg");
+    background-image: url("../images/box3/Portada.jpg"), url("../images/PortadaPx.jpg");
     background-position: center top, top left;
     background-color: #08842C;
     background-repeat: no-repeat, repeat-x;
@@ -54,7 +57,7 @@ div#box_select{
 	bottom: 20px;
 	margin: auto;
 	height: 180px;
-	width: 320px;
+	width: 480px;
 }
 div#mini_1{
 	background-image: url("../images/box1/box.png");
@@ -90,8 +93,8 @@ div#indepth_videos{
 }
 
 div#indepth_videos div#videos_container{
-	width: 561px;
-	height: 580px;
+	width: 812px;
+	height: 523px;
 	margin: auto;
 	position: absolute;
 	top: 0px;
@@ -108,11 +111,11 @@ div#indepth_videos div#videos_container{
 	cursor: pointer;
 }*/
 div.videos {
-    height: 282px;
-    margin: 3px;
-    float: left;
-    cursor: pointer;
-    width: 500px;
+    height: 256px;
+	margin: 3px;
+	float: left;
+	cursor: pointer;
+    width: 400px;
     background-size: 200% auto, 100%;
 	background-repeat: no-repeat, no-repeat;
 	background-position: center center, center;
@@ -123,7 +126,7 @@ div.videos {
 	margin: auto;
 }*/
 .row {
-    height: 290px;
+    height: 262px;
     margin: auto;
 }
 /*Tamaño para muchos videos*/
@@ -133,10 +136,10 @@ div.videos {
 }
 */
 .videos1 {
-    width: 506px;
+    width: 406px;
 }
 .videos2{
-	width: 644px;
+	width: 812px;
 }
 .videos3{
 	width: 966px;
@@ -149,11 +152,9 @@ div#video_1{
 div#video_2{
 	background-image:url("../images/play.png"),url("../images/videos/2.jpg");
 }
-/*
 div#video_3{
-	background: url("../images/videos/3.jpg") no-repeat center;
-	background-size: 100%;
-}
+	background-image: url("../images/play.png"),url("../images/videos/3.jpg");
+}/*
 div#video_4{
 	background: url("../images/videos/4.jpg") no-repeat center;
 	background-size: 100%;
@@ -321,12 +322,12 @@ background-color: #85D86D;
 		height: 138px; /*Cambiar*//*
 	}*/
 	div#indepth_videos div#videos_container {
-    	width: 405px;
-		height: 463px;
+    	height: 398px;
+		width: 611px;
 	}
 	div.videos{
-		width: 400px;
-		height: 227px;
+		width: 300px;
+		height: 193px;
 	}
 	div#indepth_videos {
 		background-size: 970px auto;
@@ -334,13 +335,13 @@ background-color: #85D86D;
 		min-height: 540px;
 	}
 	.row{
-		height: 231px;
+		height: 198px;
 	}
 	.videos1{
-		width: 405px;
+		width: 305px;
 	}
 	.videos2{
-		width: 486px;
+		width: 612px;
 	}
 	.videos3{
 		width: 729px;
@@ -365,21 +366,21 @@ background-color: #85D86D;
 		height: 94px;
 	}*/
 	div#indepth_videos div#videos_container {
-    	width: 492px;
-   		height: 466px;
+	    height: 322px;
+		width: 492px;
 	}
 	div.videos{
-		width: 400px;
-		height: 227px;
+		width: 240px;
+		height: 155px;
 	}
 	.row{
-		height: 233px;
+		height: 160px;
 	}
 	.videos1{
-		width: 407px;
+		width: 246px;
 	}
 	.videos2{
-		width: 328px;
+		width: 492px;
 	}
 	.videos3{
 		width: 492px;
@@ -406,6 +407,16 @@ background-color: #85D86D;
 	div#instructions_box {
 	    font-size: 35px;
 	}
+	div#box_select {
+		height: 144px;
+		width: 360px;
+	}
+	.box_mini {
+    	width: 100px;
+    	height: 144px;
+    	background-size: 100px auto;
+    	margin: 0px 10px;
+    }
 }
 
 @media(max-width: 500px){
@@ -418,21 +429,21 @@ background-color: #85D86D;
 		height: 89px;
 	}*/
 	div#indepth_videos div#videos_container {
-	    width: 312px;
-		height: 297px;
+	   	height: 270px;
+		width: 412px;
 	}
 	div.videos{
-		height: 145px;
-		width: 256px;
+		height: 129px;
+		width: 200px;
 	}
 	.row{
-		height: 148px;
+		height: 135px;
 	}
 	.videos1{
-		width: 256px;
+		width: 206px;
 	}
 	.videos2{
-		width: 312px;
+		width: 492px;
 	}
 	.videos3{
 		width: 312px;
@@ -445,13 +456,30 @@ background-color: #85D86D;
 	}
 }
 @media (max-width: 420px){
+	div#indepth_videos div#videos_container {
+	    height: 201px;
+	    width: 312px;
+	}
+	div.videos {
+	    height: 95px;
+	    width: 150px;
+	}
+	.row {
+	    height: 101px;
+	}
+	.videos1 {
+	    width: 156px;
+	}
+	.videos2 {
+	    width: 312px;
+	}
 	div#indepth_box {
 	    height: 580px;
 	    background-size: 655px 100%;
 	}
 	div#box_select{
 		height: 130px;
-		width: 200px;
+		width: 300px;
 	}
 	.box_mini{
 		background-size: 80px auto;
