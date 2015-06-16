@@ -272,10 +272,10 @@ var right = "rotateY(90deg) translate3d(0px, 0px, 256px)";
             if(!msieversion()){
                 THIS.box.style[cssPref+"Transform"] = "rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")";
             }else{
-                $(THIS.box).find("#front").css(cssPref+"Transform","rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")"+front+"");
-                $(THIS.box).find("#back").css(cssPref+"Transform","rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")"+back+"");
-                $(THIS.box).find("#left").css(cssPref+"Transform","rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")"+left+"");
-                $(THIS.box).find("#right").css(cssPref+"Transform","rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")"+right+"");
+                $(THIS.box).find("#front").css("-ms-transform","rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")"+front+"");
+                $(THIS.box).find("#back").css("-ms-transform","rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")"+back+"");
+                $(THIS.box).find("#left").css("-ms-transform","rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")"+left+"");
+                $(THIS.box).find("#right").css("-ms-transform","rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")"+right+"");
                
             }
             
