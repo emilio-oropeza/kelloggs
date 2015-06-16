@@ -8,6 +8,12 @@
  *  Licensed under the MIT (http://www.eleqtriq.com/wp-content/uploads/2010/11/mit-license.txt)
  */
 
+var front = "translate3d(0px, 0px, 69px)";
+var back = "rotateY(180deg) translate3d(0px, 0px, 69px)";
+var left = "rotateY(-90deg) translate3d(0px, 0px, 69px)";
+var right = "rotateY(90deg) translate3d(0px, 0px, 256px)";
+
+
 (function(){
     var userAgent   = navigator.userAgent.toLowerCase(),
         canTouch    = "ontouchstart" in window,
@@ -266,9 +272,11 @@
             if(!msieversion()){
                 THIS.box.style[cssPref+"Transform"] = "rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")";
             }else{
-                $(THIS.box).find("div").each(function(){
-                    $(this).css(cssPref+"Transform","rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")");
-                });
+                $(THIS.box).find("#front").css(cssPref+"Transform","rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")"+front+"");
+                $(THIS.box).find("#back").css(cssPref+"Transform","rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")"+back+"");
+                $(THIS.box).find("#left").css(cssPref+"Transform","rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")"+left+"");
+                $(THIS.box).find("#right").css(cssPref+"Transform","rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")"+right+"");
+               
             }
             
                                         
