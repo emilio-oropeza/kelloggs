@@ -65,7 +65,13 @@ div#boxIE{
 	background-position: center;
 	background-size: 100%;
 	width: 970px;
-	height: 600px;
+	height: 518px;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
 }
 div#mini_1{
 	background-image: url("../images/box1/box.png");
