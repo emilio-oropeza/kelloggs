@@ -266,9 +266,9 @@
             if(!msieversion()){
                 THIS.box.style[cssPref+"Transform"] = "rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")";
             }else{
-                var front = $(THIS.box).find("div");
-                console.log(front);
-                //front.style[cssPref+"Transform"] = "rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")";
+                $(THIS.box).find("div").each(function(){
+                    $(this).css(cssPref+"Transform","rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")");
+                });
             }
             
                                         
