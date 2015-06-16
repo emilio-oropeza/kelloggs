@@ -263,7 +263,12 @@
             
             //Only one thing left to do: Update the position of the box by applying a new transform:
             // 2 transforms will be applied: the current rotation 3d and the start-matrix
-            THIS.box.style[cssPref+"Transform"] = "rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")";
+            if(!msieversion()){
+                THIS.box.style[cssPref+"Transform"] = "rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")";
+            }else{
+                console.log(THIS.box);
+            }
+            
                                         
             curTime = new Date().getTime();
         }
@@ -391,6 +396,15 @@
                 
                 return [curleft,curtop];
             }
+        }
+
+        function msieversion(){
+            var ua = window.navigator.userAgent;
+            var msie = ua.indexOf("MSIE ");
+            if(msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\.//))
+                return true;
+            else
+                return false;
         }
     }
     
