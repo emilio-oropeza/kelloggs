@@ -21,9 +21,9 @@ section#box1{
 div#box {
 	-webkit-transform: rotate3d(1,0,0,-40deg);
 	-moz-transform: rotate3d(1,0,0,-40deg);
-	-ms-transform: rotate3d(1,0,0,-40deg);
 	-o-transform: rotate3d(1,0,0,-40deg);
 	transform: rotate3d(1,0,0,-40deg);
+	-ms-transform: rotate3d(1,0,0,-40deg);
 	cursor: move;
 	position: relative;
 	margin-top: -177px;
