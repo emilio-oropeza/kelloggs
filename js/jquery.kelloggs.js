@@ -63,8 +63,9 @@ function isIE() {
 
 $(document).ready(function(){
 	if(isIE()){
-		$("#indepth_box").html("");
-		$('<div id="boxIE"></div>').appendTo("#indepth_box");
+		$("#instructions_box").remove();
+		$("section#box1").remove();
+		$('<div id="boxIE"></div>').prependTo("#indepth_box");
 	}
 
 	var width = $(".video").width();
