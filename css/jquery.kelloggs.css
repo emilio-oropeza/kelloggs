@@ -425,6 +425,10 @@ div#video_yt_cont{
     	background-size: 100px auto;
     	margin: 0px 10px;
     }
+    div#boxIE{
+		width: 500px;
+		height: 275px;
+	}
 }
 
 @media(max-width: 500px){
