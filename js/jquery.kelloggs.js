@@ -92,11 +92,15 @@ $(document).ready(function(){
 
 	$(".box_mini").each(function(key, val){
 		$(this).on("click", function(){
-			$("#front").css('background-image','url("'+ urlIndepth + 'images/box'+(key+1)+'/front.jpg")');
-			$("#back").css('background-image','url("'+ urlIndepth + 'images/box'+(key+1)+'/back.jpg")');
-			$("#left").css('background-image','url("'+ urlIndepth + 'images/box'+(key+1)+'/left.jpg")');
-			$("#right").css('background-image','url("'+ urlIndepth + 'images/box'+(key+1)+'/left.jpg")');
 			$("#indepth_cover").css('background-image','url("'+ urlIndepth + 'images/box'+(key+1)+'/Portada.jpg"), url("'+ urlIndepth + 'mages/PortadaPx.jpg")');
+			if(isIE()){
+				$("#boxIE").css('background-image','url("'+ urlIndepth + 'images/box'+(key+1)+'/boxIE.png")';
+			}else{
+				$("#front").css('background-image','url("'+ urlIndepth + 'images/box'+(key+1)+'/front.jpg")');
+				$("#back").css('background-image','url("'+ urlIndepth + 'images/box'+(key+1)+'/back.jpg")');
+				$("#left").css('background-image','url("'+ urlIndepth + 'images/box'+(key+1)+'/left.jpg")');
+				$("#right").css('background-image','url("'+ urlIndepth + 'images/box'+(key+1)+'/left.jpg")');
+			}
 		});
 	});
 

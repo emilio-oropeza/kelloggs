@@ -63,7 +63,7 @@ div#boxIE{
 	background-image: url("../images/box3/boxIE.png");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 100%;
+	background-size: 100%, auto;
 	width: 970px;
 	height: 518px;
 	position: absolute;
