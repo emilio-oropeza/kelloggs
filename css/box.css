@@ -35,9 +35,9 @@ div#box {
 	height: 355px;
 	-webkit-transform-style: preserve-3d;
 	-moz-transform-style: preserve-3d;
-	-ms-transform-style: preserve-3d;
 	-o-transform-style: preserve-3d;
 	transform-style: preserve-3d;
+	-ms-transform-style: none;
 }
 #box div {
 	margin-top: -177px;
@@ -79,15 +79,15 @@ div#box {
 	-webkit-transform: translate3d(0px, 0px, 69px);
 	-moz-transform: translate3d(0px, 0px, 69px);
 	-o-transform: translate3d(0px, 0px, 69px);
-	-ms-transform: translate3d(0px, 0px, 69px);
 	transform: translate3d(0px, 0px, 69px);
+	-ms-transform: rotate3d(1,0,0,-40deg) translate3d(0px, 0px, 69px);
 }
 #back{
 	-webkit-transform: rotateY(180deg) translate3d(0px, 0px, 69px);
 	-moz-transform: rotateY(180deg) translate3d(0px, 0px, 69px);
 	-o-transform: rotateY(180deg) translate3d(0px, 0px, 69px);
-	-ms-transform: rotateY(180deg) translate3d(0px, 0px, 69px);
 	transform: rotateY(180deg) translate3d(0px, 0px, 69px);
+	-ms-transform: rotate3d(1,0,0,-40deg) rotateY(180deg) translate3d(0px, 0px, 69px);
 }
 #left{
 	background-image: url("../images/box3/left.jpg");
@@ -104,15 +104,15 @@ div#box {
 	-webkit-transform: rotateY(-90deg) translate3d(0px, 0px, 69px);
 	-moz-transform: rotateY(-90deg) translate3d(0px, 0px, 69px);
 	-o-transform: rotateY(-90deg) translate3d(0px, 0px, 69px);
-	-ms-transform: rotateY(-90deg) translate3d(0px, 0px, 69px);
 	transform: rotateY(-90deg) translate3d(0px, 0px, 69px);
+	-ms-transform: rotate3d(1,0,0,-40deg) rotateY(-90deg) translate3d(0px, 0px, 69px);
 }
 #right{
 	-webkit-transform: rotateY(90deg) translate3d(0px, 0px, 256px);
 	-moz-transform: rotateY(90deg) translate3d(0px, 0px, 256px);
 	-o-transform: rotateY(90deg) translate3d(0px, 0px, 256px);
-	-ms-transform: rotateY(90deg) translate3d(0px, 0px, 256px);
 	transform: rotateY(90deg) translate3d(0px, 0px, 256px);
+	-ms-transform: rotate3d(1,0,0,-40deg) rotateY(90deg) translate3d(0px, 0px, 256px);
 }
 
 
