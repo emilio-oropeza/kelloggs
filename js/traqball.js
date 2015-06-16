@@ -266,7 +266,8 @@
             if(!msieversion()){
                 THIS.box.style[cssPref+"Transform"] = "rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")";
             }else{
-                console.log(THIS.box);
+                var front = $(THIS.box).find("#front");
+                front.style[cssPref+"Transform"] = "rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")";
             }
             
                                         
