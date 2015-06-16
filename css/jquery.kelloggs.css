@@ -66,7 +66,6 @@ div#boxIE{
 	background-size: 100%, auto;
 	width: 915px;
 	height: 504px;
-	
 	position: absolute;
 	margin: auto;
 	left: 0;
@@ -356,6 +355,10 @@ div#video_yt_cont{
 	    height: 100px;
 	    line-height: 100px;
 	}
+	div#boxIE{
+		width: 700px;
+		height: 385px;
+	}
 }
 @media (max-width: 730px){
 	div#indepth_videos {
@@ -385,6 +388,10 @@ div#video_yt_cont{
 	}
 	.videos3{
 		width: 492px;
+	}
+	div#boxIE{
+		width: 500px;
+		height: 275px;
 	}
 }
 
@@ -492,6 +499,10 @@ div#video_yt_cont{
 	    line-height: 70px;
 	    font-size: 20px;
 	    height: 70px;
+	}
+	div#boxIE{
+		width: 320px;
+		height: 180px;
 	}
 }
 
