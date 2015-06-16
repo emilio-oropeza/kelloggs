@@ -94,7 +94,7 @@ $(document).ready(function(){
 		$(this).on("click", function(){
 			$("#indepth_cover").css('background-image','url("'+ urlIndepth + 'images/box'+(key+1)+'/Portada.jpg"), url("'+ urlIndepth + 'mages/PortadaPx.jpg")');
 			if(isIE()){
-				$("#boxIE").css('background-image','url("'+ urlIndepth + 'images/box'+(key+1)+'/boxIE.png")';
+				$("#boxIE").css('background-image','url("'+ urlIndepth + 'images/box'+(key+1)+'/boxIE.png")');
 			}else{
 				$("#front").css('background-image','url("'+ urlIndepth + 'images/box'+(key+1)+'/front.jpg")');
 				$("#back").css('background-image','url("'+ urlIndepth + 'images/box'+(key+1)+'/back.jpg")');
