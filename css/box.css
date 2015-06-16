@@ -80,7 +80,7 @@ div#box {
 	-moz-transform: translate3d(0px, 0px, 69px);
 	-o-transform: translate3d(0px, 0px, 69px);
 	-ms-transform:rotate3d(1,0,0,-40deg) translate3d(0px, 0px, 69px);
-	transform: translate3d(0px, 0px, 69px);
+	transform: rotate3d(1,0,0,-40deg) translate3d(0px, 0px, 69px);
 }
 #back{
 	-webkit-transform: rotateY(180deg) translate3d(0px, 0px, 69px);
@@ -105,7 +105,7 @@ div#box {
 	-moz-transform: rotateY(-90deg) translate3d(0px, 0px, 69px);
 	-o-transform: rotateY(-90deg) translate3d(0px, 0px, 69px);
 	-ms-transform:rotate3d(1,0,0,-40deg) rotateY(-90deg) translate3d(0px, 0px, 69px);
-	transform: rotateY(-90deg) translate3d(0px, 0px, 69px);
+	transform: rotate3d(1,0,0,-40deg) rotateY(-90deg) translate3d(0px, 0px, 69px);
 }
 #right{
 	-webkit-transform: rotateY(90deg) translate3d(0px, 0px, 256px);
