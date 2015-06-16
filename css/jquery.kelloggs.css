@@ -59,6 +59,9 @@ div#box_select{
 	height: 180px;
 	width: 480px;
 }
+div#boxIE{
+	background-image: url("../images/box3/boxIE.png");
+}
 div#mini_1{
 	background-image: url("../images/box1/box.png");
 }

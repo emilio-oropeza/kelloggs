@@ -14,7 +14,8 @@ var posicion_slider2=0;
 var videos = [
 	"Xp3XsNaUni4",
 	"kwCInVDumFs",
-	"Dhteb9QkF8A"
+	"Dhteb9QkF8A",
+	"lSLSLmCtJyQ"
 ];
 
 window.addEventListener("load", callback, false);
@@ -50,8 +51,22 @@ function loadDisqus(source, identifier, url) {
 	}
 };
 
+function isIE() {
+    var ua = window.navigator.userAgent;
+    var msie = ua.indexOf("MSIE ");
+
+    if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./)) 
+        return true;
+    else                 
+        return false;
+}
 
 $(document).ready(function(){
+	if(isIE()){
+		$("#indepth_box").html("");
+		$('<div id="boxIE"></div>').appendTo("#indepth_box");
+	}
+
 	var width = $(".video").width();
 	var height = $(".video").height();
 

@@ -8,12 +8,6 @@
  *  Licensed under the MIT (http://www.eleqtriq.com/wp-content/uploads/2010/11/mit-license.txt)
  */
 
-var front = "translate3d(0px, 0px, 69px)";
-var back = "rotateY(180deg) translate3d(0px, 0px, 69px)";
-var left = "rotateY(-90deg) translate3d(0px, 0px, 69px)";
-var right = "rotateY(90deg) translate3d(0px, 0px, 256px)";
-
-
 (function(){
     var userAgent   = navigator.userAgent.toLowerCase(),
         canTouch    = "ontouchstart" in window,
@@ -269,16 +263,7 @@ var right = "rotateY(90deg) translate3d(0px, 0px, 256px)";
             
             //Only one thing left to do: Update the position of the box by applying a new transform:
             // 2 transforms will be applied: the current rotation 3d and the start-matrix
-            if(!msieversion()){
-                THIS.box.style[cssPref+"Transform"] = "rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")";
-            }else{
-                $(THIS.box).find("#front").css("-ms-transform","rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")"+front+"");
-                $(THIS.box).find("#back").css("-ms-transform","rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")"+back+"");
-                $(THIS.box).find("#left").css("-ms-transform","rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")"+left+"");
-                $(THIS.box).find("#right").css("-ms-transform","rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")"+right+"");
-               
-            }
-            
+            THIS.box.style[cssPref+"Transform"] = "rotate3d("+ axis+","+angle+"rad) matrix3d("+startMatrix+")";
                                         
             curTime = new Date().getTime();
         }
@@ -406,15 +391,6 @@ var right = "rotateY(90deg) translate3d(0px, 0px, 256px)";
                 
                 return [curleft,curtop];
             }
-        }
-
-        function msieversion(){
-            var ua = window.navigator.userAgent;
-            var msie = ua.indexOf("MSIE ");
-            if(msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))
-                return true;
-            else
-                return false;
         }
     }
     
