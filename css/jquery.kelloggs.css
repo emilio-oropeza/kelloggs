@@ -38,6 +38,10 @@ div#indepth_box{
 	overflow: hidden;
 	position: relative;
 }
+.indepth_box_IE{
+	background-image: url("../images/Fondo_Caja2.jpg");
+	background-size: cover;
+}
 div#instructions_box{
 	color: rgb(255, 255, 255);
 	font-family: 'Roboto Condensed',sans-serif;
@@ -60,18 +64,40 @@ div#box_select{
 	width: 480px;
 }
 div#boxIE{
-	background-image: url("../images/box3/boxIE.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 100%, auto;
-	width: 915px;
-	height: 504px;
+	width: 950px;
+	height: 500px;
 	position: absolute;
 	margin: auto;
-	left: 0;
-	right: 0;
-	top: 0;
-	bottom: 0;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+}
+.arrow {
+    width: 143px;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    background-position: center center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+#arrow_left {
+    background-image: url("../images/left.png");
+}
+#arrow_right {
+    background-image: url("../images/right.png");
+}
+#box_gal {
+    height: 100%;
+    display: inline-block;
+    float: left;
+    width: 664px;
+    background-position: center center;
+    background-image: url("../images/box3/front.jpg");
+    background-size: auto 500px;
+    background-repeat: no-repeat;
 }
 div#mini_1{
 	background-image: url("../images/box1/box.png");
@@ -359,6 +385,10 @@ div#video_yt_cont{
 		width: 700px;
 		height: 385px;
 	}
+	#box_gal {
+	    width: 414px;
+	    background-size: auto 385px;
+	}
 }
 @media (max-width: 730px){
 	div#indepth_videos {
@@ -393,11 +423,9 @@ div#video_yt_cont{
 		width: 500px;
 		height: 275px;
 	}
-}
-
-@media(max-width: 550px){
-	div.indepth_billboards{
-		height: 260px;
+	#box_gal {
+	    width: 214px;
+	    background-size: auto 275px;
 	}
 }
 @media (max-width: 620px){
@@ -429,8 +457,19 @@ div#video_yt_cont{
 		width: 500px;
 		height: 275px;
 	}
+	#box_gal {
+	    width: 266px;
+	    background-size: auto 275px;
+	}
+	.arrow{
+		width: 117px;
+	}
 }
-
+@media(max-width: 550px){
+	div.indepth_billboards{
+		height: 260px;
+	}
+}
 @media(max-width: 500px){
 	div#indepth_videos {
 		max-height: 860px;
@@ -466,6 +505,15 @@ div#video_yt_cont{
 	.indepth_share_item.whatsapp{
 		display: block;
 	}
+	div#boxIE{
+		width: 420px;
+		height: 275px;
+	}	
+	#box_gal {
+	    width: 176px;
+	    background-size: auto 275px;
+	}
+	
 }
 @media (max-width: 420px){
 	div#indepth_videos div#videos_container {
@@ -506,7 +554,14 @@ div#video_yt_cont{
 	}
 	div#boxIE{
 		width: 320px;
-		height: 180px;
+		height: 250px;
+	}
+	#box_gal {
+	    width: 160px;
+	    background-size: auto 275px;
+	}
+	.arrow{
+		width: 85px;
 	}
 }
 

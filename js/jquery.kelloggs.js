@@ -18,6 +18,16 @@ var videos = [
 	"lSLSLmCtJyQ"
 ];
 
+var ie = [
+	"front",
+	"left",
+	"back",
+	"left"
+];
+
+var box = 3;
+var img = 0;
+
 window.addEventListener("load", callback, false);
 		
 function callback(){
@@ -65,7 +75,28 @@ $(document).ready(function(){
 	if(isIE()){
 		$("#instructions_box").remove();
 		$("section#box1").remove();
-		$('<div id="boxIE"></div>').prependTo("#indepth_box");
+		var div = $('<div id="boxIE"></div>').prependTo("#indepth_box");
+		var left = $('<div id="arrow_left" class="arrow"></div>').appendTo(div);
+		var boxIE = $('<div id="box_gal"></div>').appendTo(div);
+		var right = $('<div id="arrow_right" class="arrow"></div>').appendTo(div);
+		$("#indepth_box").css({
+			'background-image': 'url("'+ urlIndepth + 'images/Fondo_Caja2.jpg")',
+			'background-size': 'cover'
+		});
+		$(left).on('click', function(){
+			$(boxIE).css({'background-image': 'url("'+ urlIndepth + 'images/box'+box+'/'+ie[img]+'.jpg")'});
+			img--;
+			if(img<0){
+				img = 3;
+			}
+		});
+		$(right).on('click', function(){
+			$(boxIE).css({'background-image': 'url("'+ urlIndepth + 'images/box'+box+'/'+ie[img]+'.jpg")'});
+			img++;
+			if(img>3){
+				img = 0;
+			}
+		});
 	}
 
 	var width = $(".video").width();
@@ -92,9 +123,11 @@ $(document).ready(function(){
 
 	$(".box_mini").each(function(key, val){
 		$(this).on("click", function(){
-			$("#indepth_cover").css('background-image','url("'+ urlIndepth + 'images/box'+(key+1)+'/Portada.jpg"), url("'+ urlIndepth + 'mages/PortadaPx.jpg")');
+			$("#indepth_cover").css('background-image','url("'+ urlIndepth + 'images/box'+(key+1)+'/Portada.jpg"), url("'+ urlIndepth + 'images/PortadaPx.jpg")');
 			if(isIE()){
-				$("#boxIE").css('background-image','url("'+ urlIndepth + 'images/box'+(key+1)+'/boxIE.png")');
+				img = 0;
+				$("#box_gal").css({'background-image': 'url("'+ urlIndepth + 'images/box'+(key+1)+'/'+ie[img]+'.jpg")'});
+				box = key+1;
 			}else{
 				$("#front").css('background-image','url("'+ urlIndepth + 'images/box'+(key+1)+'/front.jpg")');
 				$("#back").css('background-image','url("'+ urlIndepth + 'images/box'+(key+1)+'/back.jpg")');
