@@ -73,6 +73,7 @@ function isIE() {
 
 $(document).ready(function(){
 	if(isIE()){
+		console.log("es ie");
 		$("#instructions_box").remove();
 		$("section#box1").remove();
 		var div = $('<div id="boxIE"></div>').prependTo("#indepth_box");
