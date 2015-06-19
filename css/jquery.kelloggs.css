@@ -20,6 +20,9 @@ div#indepth_cover {
     background-position: center top, top left;
     background-color: #08842C;
     background-repeat: no-repeat, repeat-x;
+    background-image: url("../images/box3/Portada.jpg")\9;
+    background-position: center top\9;
+    background-repeat: no-repeat\9;
 }
 div#indepth_billboard{
 	background-image: url("../images/KelloggsBillboard.jpg");
