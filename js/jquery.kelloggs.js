@@ -12,12 +12,12 @@ var posicion_slider2=0;
 
 
 var videos = [
-	"Xp3XsNaUni4",
-	"kwCInVDumFs",
-	"Dhteb9QkF8A",
-	"lSLSLmCtJyQ",
+	"wuDwYnaZ3GE",
 	"NTw7n_zDJDQ",
-	"wuDwYnaZ3GE"
+	"lSLSLmCtJyQ",
+	"Dhteb9QkF8A",
+	"kwCInVDumFs",
+	"Xp3XsNaUni4"
 ];
 
 var ie = [
