@@ -309,6 +309,7 @@ div#video_yt_cont{
 	height: 40px;
 	border-radius: 50%;
 	background-color: rgba(255, 255, 255, 0.4);
+	background-color: rgb(255, 255, 255)\9;
 	float: left;
 	background-repeat: no-repeat;
 	background-position: center center;
