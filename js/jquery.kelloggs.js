@@ -15,7 +15,9 @@ var videos = [
 	"Xp3XsNaUni4",
 	"kwCInVDumFs",
 	"Dhteb9QkF8A",
-	"lSLSLmCtJyQ"
+	"lSLSLmCtJyQ",
+	"NTw7n_zDJDQ",
+	"wuDwYnaZ3GE"
 ];
 
 var ie = [
@@ -28,12 +30,12 @@ var ie = [
 var box = 3;
 var img = 0;
 //console.log("huevos");
-/*window.addEventListener("load", callback, false);
+window.addEventListener("load", callback, false);
 		
 function callback(){
     //var traqball_2 = new Traqball({stage: "box1", axis: [0,1,0], angle: 0.7});
     var traqball_2 = new Traqball({stage: "box1", axis: [0,1,0], angle: 0.7, limitAxxis: "y"});
-}*/
+}
 
 function loadDisqus(source, identifier, url) {
 	if (window.DISQUS) {
@@ -98,15 +100,7 @@ $(document).ready(function(){
 				img = 0;
 			}
 		});
-	}else{
-		window.addEventListener("load", callback, false);
-		
-		function callback(){
-		    //var traqball_2 = new Traqball({stage: "box1", axis: [0,1,0], angle: 0.7});
-		    var traqball_2 = new Traqball({stage: "box1", axis: [0,1,0], angle: 0.7, limitAxxis: "y"});
-		}
 	}
-
 	var width = $(".video").width();
 	var height = $(".video").height();
 

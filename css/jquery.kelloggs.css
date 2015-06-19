@@ -1,3 +1,6 @@
+div.load1{ background-image: url("../images/box4/front.jpg"); display: none; }
+div.load1{ background-image: url("../images/box4/back.jpg"); display: none; }
+div.load1{ background-image: url("../images/box4/left.jpg"); display: none; }
 div.load1{ background-image: url("../images/box3/front.jpg"); display: none; }
 div.load1{ background-image: url("../images/box3/back.jpg"); display: none; }
 div.load1{ background-image: url("../images/box3/left.jpg"); display: none; }
@@ -16,11 +19,11 @@ div.indepth_billboards{
 	height: 790px;
 }
 div#indepth_cover {
-    background-image: url("../images/box3/Portada.jpg"), url("../images/PortadaPx.jpg");
+    background-image: url("../images/box4/Portada.jpg"), url("../images/PortadaPx.jpg");
     background-position: center top, top left;
     background-color: #08842C;
     background-repeat: no-repeat, repeat-x;
-    background-image: url("../images/box3/Portada.jpg")\9;
+    background-image: url("../images/box4/Portada.jpg")\9;
     background-position: center top\9;
     background-repeat: no-repeat\9;
 }
@@ -64,7 +67,7 @@ div#box_select{
 	bottom: 20px;
 	margin: auto;
 	height: 180px;
-	width: 480px;
+	width: 640px;
 }
 div#boxIE{
 	width: 950px;
@@ -111,6 +114,9 @@ div#mini_2{
 div#mini_3{
 	background-image: url("../images/box3/box.png");
 }
+div#mini_4{
+	background-image: url("../images/box4/box.png");
+}
 .box_mini{
 	width: 120px;
 	background-position: left top;
@@ -136,8 +142,8 @@ div#indepth_videos{
 }
 
 div#indepth_videos div#videos_container{
-	width: 812px;
-	height: 523px;
+	width: 950px;
+	height: 410px;
 	margin: auto;
 	position: absolute;
 	top: 0px;
@@ -145,20 +151,12 @@ div#indepth_videos div#videos_container{
 	right: 0px;
 	left: 0px;
 }
-/*Tamaño para muchos videos*/
-/*div.videos{ 
-	width: 316px;
-	height: 176px;
-	margin: 3px;
-	float: left;
-	cursor: pointer;
-}*/
 div.videos {
-    height: 256px;
+    height: 198px;
 	margin: 3px;
 	float: left;
 	cursor: pointer;
-    width: 400px;
+    width: 310px;
     background-size: 200% auto, 100%;
 	background-repeat: no-repeat, no-repeat;
 	background-position: center center, center;
@@ -166,21 +164,11 @@ div.videos {
 	background-repeat: no-repeat\9;
 	background-position: center center\9;
 }
-/*Tamaño para muchos videos*/
-/*.row{
-	height: 182px;
-	margin: auto;
-}*/
+
 .row {
-    height: 262px;
+    height: 204px;
     margin: auto;
 }
-/*Tamaño para muchos videos*/
-/*
-.videos1{
-	width: 323px;
-}
-*/
 .videos1 {
     width: 406px;
 }
@@ -188,7 +176,7 @@ div.videos {
 	width: 812px;
 }
 .videos3{
-	width: 966px;
+	width: 950px;
 }
 
 div#video_1{
@@ -206,7 +194,7 @@ div#video_3{
 div#video_4{
 	background-image: url("../images/play.png"),url("../images/videos/4.jpg");
 	background-image:url("../images/videos/4.jpg")\9;
-/*}
+}
 div#video_5{
 	background-image: url("../images/play.png"),url("../images/videos/5.jpg");
 	background-image:url("../images/videos/5.jpg")\9;
@@ -215,7 +203,7 @@ div#video_6{
 	background-image: url("../images/play.png"),url("../images/videos/6.jpg");
 	background-image:url("../images/videos/6.jpg")\9;
 }
-div#video_7{
+/*div#video_7{
 	background-image: url("../images/play.png"),url("../images/videos/7.jpg");
 	background-image:url("../images/videos/7.jpg")\9;
 }
@@ -260,10 +248,6 @@ div#video_17{
 	background-image:url("../images/videos/17.jpg")\9;
 }
 */
-
-.no_video{
-	background-color: rgba(0,0,0,0.7);
-}
 
 div#video_yt{
 	width: 100%;
@@ -366,17 +350,13 @@ div#video_yt_cont{
 		height: 455px;
 		background-attachment: scroll;
 	}
-	/*div#indepth_videos div#videos_container{
-		width: 729px;
-		height: 138px; /*Cambiar*//*
-	}*/
 	div#indepth_videos div#videos_container {
-    	height: 398px;
-		width: 611px;
+    	height: 302px;
+		width: 700px;
 	}
 	div.videos{
-		width: 300px;
-		height: 193px;
+		width: 227px;
+		height: 145px;
 	}
 	div#indepth_videos {
 		background-size: 970px auto;
@@ -384,7 +364,7 @@ div#video_yt_cont{
 		min-height: 540px;
 	}
 	.row{
-		height: 198px;
+		height: 151px;
 	}
 	.videos1{
 		width: 305px;
@@ -393,7 +373,7 @@ div#video_yt_cont{
 		width: 612px;
 	}
 	.videos3{
-		width: 729px;
+		width: 700px;
 	}
 	div#indepth_box {
 		background-size: 1300px 100%;
@@ -418,20 +398,16 @@ div#video_yt_cont{
 		background-size: 970px auto;
 		max-height: 740px;
 	}
-	/*div#indepth_videos div#videos_container{
-		width: 492px;
-		height: 94px;
-	}*/
 	div#indepth_videos div#videos_container {
-	    height: 322px;
-		width: 492px;
+	    height: 212px;
+		width: 490px;
 	}
 	div.videos{
-		width: 240px;
-		height: 155px;
+		width: 157px;
+		height: 100px;
 	}
 	.row{
-		height: 160px;
+		height: 106px;
 	}
 	.videos1{
 		width: 246px;
@@ -440,7 +416,7 @@ div#video_yt_cont{
 		width: 492px;
 	}
 	.videos3{
-		width: 492px;
+		width: 490px;
 	}
 	div#boxIE{
 		width: 500px;
@@ -467,15 +443,15 @@ div#video_yt_cont{
 	    font-size: 35px;
 	}
 	div#box_select {
-		height: 144px;
-		width: 360px;
+	    height: 144px;
+	    width: 420px;
 	}
 	.box_mini {
-    	width: 100px;
-    	height: 144px;
-    	background-size: 100px auto;
-    	margin: 0px 10px;
-    }
+	    width: 85px;
+	    height: 124px;
+	    background-size: 85px auto;
+	    margin: 0px 10px;
+	}
     div#boxIE{
 		width: 500px;
 		height: 275px;
@@ -498,12 +474,8 @@ div#video_yt_cont{
 		max-height: 860px;
 		min-height: 539px;
 	}
-	/*div#indepth_videos div#videos_container{
-		width: 312px;
-		height: 89px;
-	}*/
 	div#indepth_videos div#videos_container {
-	   	height: 270px;
+	   	height: 405px;
 		width: 412px;
 	}
 	div.videos{
@@ -520,7 +492,7 @@ div#video_yt_cont{
 		width: 492px;
 	}
 	.videos3{
-		width: 312px;
+		width: 412px;
 	}
 	div#instructions_box {
 	    font-size: 28px;
@@ -540,8 +512,8 @@ div#video_yt_cont{
 }
 @media (max-width: 420px){
 	div#indepth_videos div#videos_container {
-	    height: 201px;
-	    width: 312px;
+	    height: 304px;
+		width: 312px;
 	}
 	div.videos {
 	    height: 95px;
@@ -556,19 +528,22 @@ div#video_yt_cont{
 	.videos2 {
 	    width: 312px;
 	}
+	.videos3 {
+	    width: 312px;
+	}
 	div#indepth_box {
 	    height: 580px;
 	    background-size: 655px 100%;
 	}
-	div#box_select{
-		height: 130px;
-		width: 300px;
+	div#box_select {
+	    height: 100px;
+	    width: 320px;
 	}
-	.box_mini{
-		background-size: 80px auto;
-		width: 80px;
-		height: 115px;
-		margin: 0px 10px;
+	.box_mini {
+	    background-size: 70px auto;
+	    width: 70px;
+	    height: 101px;
+	    margin: 0px 5px;
 	}
 	div#instructions_box {
 	    line-height: 70px;
