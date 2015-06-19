@@ -162,6 +162,9 @@ div.videos {
     background-size: 200% auto, 100%;
 	background-repeat: no-repeat, no-repeat;
 	background-position: center center, center;
+	background-size: 200% auto\9;
+	background-repeat: no-repeat\9;
+	background-position: center center\9;
 }
 /*Tamaño para muchos videos*/
 /*.row{
