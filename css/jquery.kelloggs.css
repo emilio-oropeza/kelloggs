@@ -1,3 +1,6 @@
+div.load1{ background-image: url("../images/box5/front.jpg"); display: none; }
+div.load1{ background-image: url("../images/box5/back.jpg"); display: none; }
+div.load1{ background-image: url("../images/box5/left.jpg"); display: none; }
 div.load1{ background-image: url("../images/box4/front.jpg"); display: none; }
 div.load1{ background-image: url("../images/box4/back.jpg"); display: none; }
 div.load1{ background-image: url("../images/box4/left.jpg"); display: none; }
@@ -19,11 +22,11 @@ div.indepth_billboards{
 	height: 790px;
 }
 div#indepth_cover {
-    background-image: url("../images/box4/Portada.jpg"), url("../images/PortadaPx.jpg");
+    background-image: url("../images/box5/Portada.jpg"), url("../images/PortadaPx.jpg");
     background-position: center top, top left;
     background-color: #08842C;
     background-repeat: no-repeat, repeat-x;
-    background-image: url("../images/box4/Portada.jpg")\9;
+    background-image: url("../images/box5/Portada.jpg")\9;
     background-position: center top\9;
     background-repeat: no-repeat\9;
 }
@@ -67,7 +70,7 @@ div#box_select{
 	bottom: 20px;
 	margin: auto;
 	height: 180px;
-	width: 640px;
+	width: 800px;
 }
 div#boxIE{
 	width: 950px;
@@ -116,6 +119,9 @@ div#mini_3{
 }
 div#mini_4{
 	background-image: url("../images/box4/box.png");
+}
+div#mini_5{
+	background-image: url("../images/box5/box.png");
 }
 .box_mini{
 	width: 120px;
@@ -213,10 +219,10 @@ div#video_6{
 	background-image: url("../images/play.png"),url("../images/videos/6.jpg");
 	background-image:url("../images/videos/6.jpg")\9;
 }
-/*div#video_7{
+div#video_7{
 	background-image: url("../images/play.png"),url("../images/videos/7.jpg");
 	background-image:url("../images/videos/7.jpg")\9;
-}
+}/*
 div#video_8{
 	background-image: url("../images/play.png"),url("../images/videos/8.jpg");
 	background-image:url("../images/videos/8.jpg")\9;
@@ -411,6 +417,18 @@ div#video_yt_cont{
 	    background-size: auto 385px;
 	}
 }
+@media (max-width: 800px){
+	div#box_select {
+	    height: 145px;
+  		width: 550px;
+	}
+	.box_mini {
+	  width: 100px;
+	  height: 145px;
+	  background-size: 100px auto;
+	  margin: 0px 5px;
+	}
+}
 @media (max-width: 730px){
 	div#indepth_videos {
 		background-size: 970px auto;
@@ -469,10 +487,15 @@ div#video_yt_cont{
 	div#instructions_box {
 	    font-size: 35px;
 	}
+	div#indepth_box {
+	  background-size: 840px 100%;
+	  height: 840px;
+	 }
 	div#box_select {
-	    height: 144px;
-	    width: 420px;
+	  height: 250px;
+	  width: 315px;
 	}
+
 	.box_mini {
 	    width: 85px;
 	    height: 124px;
@@ -574,12 +597,12 @@ div#video_yt_cont{
 	    width: 312px;
 	}
 	div#indepth_box {
-	    height: 580px;
+	    height: 670px;
 	    background-size: 655px 100%;
 	}
 	div#box_select {
-	    height: 100px;
-	    width: 320px;
+	  height: 205px;
+	  width: 240px;
 	}
 	.box_mini {
 	    background-size: 70px auto;
