@@ -12,6 +12,8 @@ var posicion_slider2=0;
 
 
 var videos = [
+	"uiNK9OoDjrI",
+	"LJApDR1boIk",
 	"8Ue3JDG-FpY",
 	"wuDwYnaZ3GE",
 	"NTw7n_zDJDQ",
@@ -30,13 +32,6 @@ var ie = [
 
 var box = 3;
 var img = 0;
-//console.log("huevos");
-window.addEventListener("load", callback, false);
-		
-function callback(){
-    //var traqball_2 = new Traqball({stage: "box1", axis: [0,1,0], angle: 0.7});
-    var traqball_2 = new Traqball({stage: "box1", axis: [0,1,0], angle: 0.7, limitAxxis: "y"});
-}
 
 function loadDisqus(source, identifier, url) {
 	if (window.DISQUS) {
@@ -75,6 +70,10 @@ function isIE() {
 }
 
 $(document).ready(function(){
+	var traqball_2 = new Traqball({stage: "box1", axis: [0,1,0], angle: 0.7, limitAxxis: "y"});
+	setInterval(function () {
+		traqball_2.setup({stage: "box1", limitAxxis: "y"});
+	}, 30000);
 	if(isIE()){
 		console.log("es ie");
 		$("#instructions_box").remove();
@@ -126,6 +125,7 @@ $(document).ready(function(){
 
 	$(".box_mini").each(function(key, val){
 		$(this).on("click", function(){
+			traqball_2.setup({stage: "box1", axis: [0,1,0], angle: 0.7, limitAxxis: "y"});
 			$("#indepth_cover").css('background-image','url("'+ urlIndepth + 'images/box'+(key+1)+'/Portada.jpg"), url("'+ urlIndepth + 'images/PortadaPx.jpg")');
 			if(isIE()){
 				img = 0;
