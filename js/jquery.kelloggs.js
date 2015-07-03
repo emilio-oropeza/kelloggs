@@ -12,6 +12,8 @@ var posicion_slider2=0;
 
 
 var videos = [
+	"7GwGQ0EIGqU",
+	"N44-6iECg-Y",
 	"uiNK9OoDjrI",
 	"LJApDR1boIk",
 	"8Ue3JDG-FpY",
