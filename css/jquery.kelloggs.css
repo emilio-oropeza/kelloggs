@@ -1,6 +1,18 @@
 div.load1{ background-image: url("../images/box8/front.jpg"); display: none; }
 div.load1{ background-image: url("../images/box8/back.jpg"); display: none; }
 div.load1{ background-image: url("../images/box8/left.jpg"); display: none; }
+div.load1{ background-image: url("../images/box12/front.jpg"); display: none; }
+div.load1{ background-image: url("../images/box12/back.jpg"); display: none; }
+div.load1{ background-image: url("../images/box12/left.jpg"); display: none; }
+div.load1{ background-image: url("../images/box11/front.jpg"); display: none; }
+div.load1{ background-image: url("../images/box11/back.jpg"); display: none; }
+div.load1{ background-image: url("../images/box11/left.jpg"); display: none; }
+div.load1{ background-image: url("../images/box10/front.jpg"); display: none; }
+div.load1{ background-image: url("../images/box10/back.jpg"); display: none; }
+div.load1{ background-image: url("../images/box10/left.jpg"); display: none; }
+div.load1{ background-image: url("../images/box9/front.jpg"); display: none; }
+div.load1{ background-image: url("../images/box9/back.jpg"); display: none; }
+div.load1{ background-image: url("../images/box9/left.jpg"); display: none; }
 div.load1{ background-image: url("../images/box7/front.jpg"); display: none; }
 div.load1{ background-image: url("../images/box7/back.jpg"); display: none; }
 div.load1{ background-image: url("../images/box7/left.jpg"); display: none; }
@@ -31,11 +43,11 @@ div.indepth_billboards{
 	height: 790px;
 }
 div#indepth_cover {
-    background-image: url("../images/box11/Portada.jpg"), url("../images/PortadaPx.jpg");
+    background-image: url("../images/box12/Portada.jpg"), url("../images/PortadaPx.jpg");
     background-position: center top, top left;
     background-color: #08842C;
     background-repeat: no-repeat, repeat-x;
-    background-image: url("../images/box11/Portada.jpg")\9;
+    background-image: url("../images/box12/Portada.jpg")\9;
     background-position: center top\9;
     background-repeat: no-repeat\9;
 }
@@ -150,6 +162,9 @@ div#mini_10{
 div#mini_11{
 	background-image: url("../images/box11/box.png");
 }
+div#mini_12{
+	background-image: url("../images/box12/box.png");
+}
 .box_mini{
 	width: 120px;
 	background-position: left top;
@@ -162,7 +177,7 @@ div#mini_11{
 }
 
 div#indepth_videos{
-	height: 1261px;
+	height: 1350px;
 	width: 100%;
 	background-image: url("../images/Fondo_video1.jpg"); 
 	background-position: top center;
@@ -175,7 +190,7 @@ div#indepth_videos{
 
 div#indepth_videos div#videos_container{
 	width: 950px;
-	height: 1120px;
+	height: 1320px;
 	margin: auto;
 	position: absolute;
 	top: 0px;
@@ -263,7 +278,7 @@ div#video_10{
 div#video_11{
 	background-image: url("../images/play.png"),url("../images/videos/11.jpg");
 	background-image:url("../images/videos/11.jpg")\9;
-}/*
+}
 div#video_12{
 	background-image: url("../images/play.png"),url("../images/videos/12.jpg");
 	background-image:url("../images/videos/12.jpg")\9;
@@ -280,15 +295,6 @@ div#video_15{
 	background-image: url("../images/play.png"),url("../images/videos/15.jpg");
 	background-image:url("../images/videos/15.jpg")\9;
 }
-div#video_16{
-	background-image: url("../images/play.png"),url("../images/videos/16.jpg");
-	background-image:url("../images/videos/16.jpg")\9;
-}
-div#video_17{
-	background-image: url("../images/play.png"),url("../images/videos/17.jpg");
-	background-image:url("../images/videos/17.jpg")\9;
-}
-*/
 
 div#video_yt{
 	width: 100%;
@@ -392,7 +398,7 @@ div#video_yt_cont{
 		background-attachment: scroll;
 	}
 	div#indepth_videos div#videos_container {
-    	height: 840px;
+    	height: 990px;
 		width: 700px;
 	}
 	div.videos{
@@ -457,10 +463,10 @@ div#video_yt_cont{
 @media (max-width: 730px){
 	div#indepth_videos {
 		background-size: 970px auto;
-		max-height: 740px;
+		max-height: 760px;
 	}
 	div#indepth_videos div#videos_container {
-	    height: 640px;
+	    height: 745px;
 		width: 490px;
 	}
 	div.videos{
@@ -546,11 +552,11 @@ div#video_yt_cont{
 }
 @media(max-width: 500px){
 	div#indepth_videos {
-		max-height: 900px;
+		max-height: 1170px;
 		min-height: 539px;
 	}
 	div#indepth_videos div#videos_container {
-	   	height: 890px;
+	   	height: 1160px;
 		width: 412px;
 	}
 	div.videos{

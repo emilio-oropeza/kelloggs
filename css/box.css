@@ -65,11 +65,11 @@ div#box {
 }
 
 #front{
-	background-image: url("../images/box11/front.jpg");
+	background-image: url("../images/box12/front.jpg");
 	background-repeat: no-repeat;
 }
 #back{
-	background-image: url("../images/box11/back.jpg");
+	background-image: url("../images/box12/back.jpg");
 	background-repeat: no-repeat;
 }
 #front, #back{
@@ -90,11 +90,11 @@ div#box {
 	transform: rotateY(180deg) translate3d(0px, 0px, 69px);
 }
 #left{
-	background-image: url("../images/box11/left.jpg");
+	background-image: url("../images/box12/left.jpg");
 	background-repeat: no-repeat;
 }
 #right{
-	background-image: url("../images/box11/left.jpg");
+	background-image: url("../images/box12/left.jpg");
 	background-repeat: no-repeat;
 }
 #left, #right{
